@@ -8,3 +8,10 @@ for (int i = 0; i < size; i++){
     string result = Console.ReadLine();
 	arr1[i] = result;  
 }
+Console.WriteLine();
+Console.Write("Введенный массив: [");
+Console.Write(string.Join(", ", arr1));
+Console.Write("]");
+
+int count = 0;
+int maxSymbols = 3;
