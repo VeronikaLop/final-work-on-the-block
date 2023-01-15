@@ -15,3 +15,8 @@ Console.Write("]");
 
 int count = 0;
 int maxSymbols = 3;
+for (int i = 0; i < arr1.Length; i++){
+	if(arr1[i].Length <= maxSymbols){
+		count++;
+	}   
+}
